@@ -23,9 +23,9 @@ public class Word {
      *                           (such as English)
      * @param miwokTranslation is the word in the Miwok language
      */
-    public Word(String defaultTranslation, String miwokTranslation, int musicid) {
+    public Word(String defaultTranslation, String miwok, int musicid) {
         mDefaultTranslation = defaultTranslation;
-        miwokTranslation = miwokTranslation;
+        miwokTranslation = miwok;
         mmusic_id = musicid;
     }
     public Word(String default_trans, String miwok, int imageid, int musicid)
